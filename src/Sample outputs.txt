@@ -1,0 +1,127 @@
+Board1 content: xxxxxxxWxxxxxxBxxx
+Input: java MinimaxOpening board1.txt board2.txt 2
+Output:
+Board Position: WxxxxxxWxxxxxxBxxx
+Positions evaluated by static estimation: 1
+MINIMAX estimate: 0
+
+Input: java MinimaxOpeningImproved board1.txt board2.txt 2 (Makes different move)
+Output:
+Board Position: xxxxWxxWxxxxxxBxxx
+Positions evaluated by static estimation: 65
+MINIMAX estimate: 0
+
+Input: java MinimaxOpeningBlack board1.txt board2.txt 2
+Output:
+Board Position: BxxxxxxWxxxxxxBxxx
+Positions evaluated by static estimation: 1
+MINIMAX estimate: 0
+__________________________________________________________________________
+Board1 content: WWxxxBxxxxxxxxxxxx
+Input: java MinimaxOpening board1.txt board2.txt 2
+Output:
+Board Position: WWWxxBxxxxxxxxxxxx
+Positions evaluated by static estimation: 1
+MINIMAX estimate: 1
+
+Input: java MinimaxOpeningImproved board1.txt board2.txt 2 (Makes different move)
+Output:
+Board Position: WWxxWBxxxxxxxxxxxx
+Positions evaluated by static estimation: 31
+MINIMAX estimate: -2
+
+Input: java MinimaxOpeningBlack board1.txt board2.txt 2
+Output:
+Board Position: WWBxxBxxxxxxxxxxxx
+Positions evaluated by static estimation: 1
+MINIMAX estimate: 1
+__________________________________________________________________________
+Board3 content: xxWxBxxxWWxWWxBBBx
+Input: java MinimaxGame board3.txt board4.txt 3
+Output:
+Board Position: xxWxBxxxWWxWxWBBBx
+Positions evaluated by static estimation: 1134
+MINIMAX estimate: 1970
+
+Input: java ABGame board3.txt board4.txt 3
+Output:
+Board Position: xxWxBxxxWWxWxWBBBx
+Positions evaluated by static estimation: 334 (Savings)
+AB estimate: 1970
+
+Input: java MinimaxGameBlack board3.txt board4.txt 3
+Output:
+Board Position: xxWxxBxxWWxWWxBBBx
+Positions evaluated by static estimation: 2
+MINIMAX estimate: 991
+__________________________________________________________________________
+Board3 content: xWxxxxBBxWxxWxBxBx
+Input: java MinimaxGame board3.txt board4.txt 3
+Output:
+Board Position: xxxxxxBBxWWxWxBxBx
+Positions evaluated by static estimation: 4110
+MINIMAX estimate: -36
+
+Input: java ABGame board3.txt board4.txt 3
+Output:
+Board Position: xxxxxxBBxWWxWxBxBx
+Positions evaluated by static estimation: 1662 (Savings)
+AB estimate: -36
+
+Input: java MinimaxGameBlack board3.txt board4.txt 3
+Output:
+Board Position: xWxxxxBBxWxxWxBBxx
+Positions evaluated by static estimation: 7410
+MINIMAX estimate: -1010
+__________________________________________________________________________
+Board3 content: xBxBBWxxxBWxBWWWxx
+Input: java MinimaxGame board3.txt board4.txt 4
+Output:
+Board Position: xBxBBWxxxBWxBWxWxW
+Positions evaluated by static estimation: 7148
+MINIMAX estimate: 993
+
+Input: java ABGame board3.txt board4.txt 4
+Output:
+Board Position: xBxBBWxxxBWxBWxWxW
+Positions evaluated by static estimation: 1744 (Savings)
+AB estimate: 993
+
+Input: java MinimaxGameBlack board3.txt board4.txt 4
+Output: 
+Board Position: xBxxBWxBxBWxBWWWxx
+Positions evaluated by static estimation: 6714
+MINIMAX estimate: 994
+__________________________________________________________________________
+Board3 content: xWxxxxBBxBBBxxxxWW
+Input: java MinimaxGame board3.txt board4.txt 3
+Output:
+Board Position: xxxxxxBxxBBBxxxWWW
+Positions evaluated by static estimation: 4872
+MINIMAX estimate: -1007
+
+Input: java MinimaxGameImproved board3.txt board4.txt 3 (Makes different move)
+Output:
+Board Position: xxxxxWBBxBBBxxxxWW
+Positions evaluated by static estimation: 1970
+MINIMAX estimate: -973
+__________________________________________________________________________
+Board3 content: BWxxBxxWWBBxWxxWxx
+Input: java MinimaxGame board3.txt board4.txt 3
+Output:
+Board Position: BxxxBxxWWBBWWxxWxx
+Positions evaluated by static estimation: 118
+MINIMAX estimate: 1970
+
+Input: java MinimaxGameImproved board3.txt board4.txt 3 (Makes different move)
+Output:
+Board Position: BWxxBxxWWBBxWxxxWx
+Positions evaluated by static estimation: 952
+MINIMAX estimate: 3180
+__________________________________________________________________________
+Board3 content: xxxWWWxxxBxxBxWWxx
+Input: java MinimaxGame board3.txt board4.txt 3
+Output:
+Board Position: xWxxWWxxxBxxBxWWxx
+Positions evaluated by static estimation: 2
+MINIMAX estimate: 10000

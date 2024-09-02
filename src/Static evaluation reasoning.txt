@@ -1,0 +1,3 @@
+The static estimation function for MinimaxOpening is an improvement over the original because it factors center control into the evaluation. At the start of the game, it is important to position pieces near the center because it provides more potential moves/mobility. Positioning pieces around the center also blocks the opponent forming mills that involve a center position. 
+
+The static estimation function for MinimaxGame is an improvement over the original because it factors in the number of moves, as a higher move count indicates greater control of the board. It also considers the number of mills the player has made, and a weight of 400 is used since forming mills is contingent to capturing pieces. 
